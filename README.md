@@ -1,125 +1,70 @@
-<p align='center'>
-<img src="./apps/website/public/saasui.svg#gh-light-mode-only" alt="Saas UI logo" height="60px" />
-<img src="./apps/website/public/saasui-dark.svg#gh-dark-mode-only" alt="Saas UI logo" height="60px" />
-</p>
+# Saas UI - Next.js - landing page.
 
-<p align='center'>The React component library for Startups</p>
+This is a free Next.js landing page template based on https://saas-ui.dev.
+Feel free to submit any feature requests. If you use this template please share what you've built [on Twitter](https://twitter.com/saas_js) 🚀.
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/@saas-ui/react">
-    <img src="https://img.shields.io/npm/v/@saas-ui/react" alt="NPM">
-  </a>
-  <a href="https://www.npmjs.com/package/@saas-ui/react">
-    <img src="https://img.shields.io/npm/dm/@saas-ui/react.svg" alt="npm downloads">
-  </a>
-  <img alt="MIT License" src="https://img.shields.io/github/license/saas-js/saas-ui"/>
-  <a href="https://twitter.com/intent/follow?screen_name=saas_js">
-    <img src="https://img.shields.io/twitter/follow/saas_js" alt="follow on Twitter">
-  </a>
-</p>
+**[View demo](https://saas-ui-nextjs-landing-page.netlify.app/)**
 
-<hr />
+## Tech
 
-Saas UI is an advanced component library designed to build beautiful B2B and dashboard style apps with speed.
-It's built on top of Chakra UI and fully written in Typescript.
+- Next.js
+- Chakra UI
+- Saas UI
+- Contentlayer
+- Typescript
 
-This repository contains all [open source components](/packages), as well as the [documentation website](apps/website/pages/docs).
+## Features
 
-## Links
+- Feature blocks
+- Testimonials
+- Pricing tables
+- Log in and Sign up pages
+- FAQ
 
-💡 [Documentation](https://saas-ui.dev/docs)
+## In progress
 
-🧭 [Roadmap](https://roadmap.saas-ui.dev)
+- [ ] Supabase Auth
+- [ ] Waitlist sign-up with GetRevue
+- [ ] Blog (Contentlayer)
+- [ ] Docs
 
-🖼 [Storybooks](https://storybook.saas-ui.pro)
+## Getting Started
 
-🌟 [Saas UI Pro](https://saas-ui.dev/#pro-features)
+First, clone this repo and run `pnpm i`
 
-## Sponsors ❤️
-
-Saas UI is sponsored by these amazing companies and people.
-
-- [LocalXPose](https://localxpose.io/)
-
-## Contributing & Support
-
-Want to help? Great! Check out the [contributing guidelines](CONTRIBUTING.md) and feel free to open a PR or [discussion](https://github.com/saas-js/saas-ui/discussions/new) for feature requests and feedback.
-
-If you'd like to support the project financially, you can [become a sponsor](https://github.com/sponsors/saas-js) of Saas UI or consider ordering [Saas UI Pro Beta](https://saas-ui.lemonsqueezy.com/checkout/buy/5c76854f-738a-46b8-b32d-932a97d477f5). All funds will go toward the further development of Saas UI. This will give you access to the private Git repository with the beta and our private Discord server for support.
-
-### Core
-
-40+ essential open-source components built on top of Chakra UI.
-
-- Authentication screens
-- Powerful forms manager
-- DatePicker / DateRangePicker
-- Stepper, Timeline, DataTable and much more.
-
-### Pro
-
-A premium frontend starter pack designed for SaaS products.
-Complete source code available in a monorepo that can serve as a starting point or as a reference for your project.
-
-![theme-tokens](https://user-images.githubusercontent.com/32583/172424112-72bacfdd-17df-4024-81db-690dc47d0c81.png)
-
-- Example Next.js SaaS app (https://demo.saas-ui.dev)
-- Authentication screens (Supabase/Magic/Clerk/Custom)
-- App layout
-- DataGrid and DataBoard (Kanban) with filtering/pagination
-- Charts / Sparklines
-- User account pages
-- Settings pages
-- Feature flags
-- Billing/subscription management (Lemonsqueezy)
-- Mocked API with React Query
-- Custom color schemes
-- Glass theme
-- Onboarding flows
-- Example pages (CRM, Inbox)
-
-## Using this repo
-
-The docs website depends on private packages (`@saas-ui-pro/react`), and won't build fully without access to the private Git submodule.
-
-This repository uses Yarn workspaces, to get started run:
+To start the app run:
 
 ```bash
-yarn
+pnpm dev
 ```
 
-### Storybook
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-yarn storybook
-```
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-### Build
+## Configuration
 
-```bash
-yarn build:packages
-```
+Configuration files to edit basic site information, add testimonials, faq and pricing table can be found in `/data`.
 
-### Website
+## Learn More
 
-Before running the website you need to build the props-docs by running this.
+Find out more about Saas UI.
 
-```bash
-yarn build:props-docs
-```
+- [Saas UI Documentation](https://saas-ui.dev/docs/introduction).
 
-After that run the website with this command.
+To learn more about Next.js, take a look at the following resources:
 
-```bash
-yarn w website dev
-```
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-or
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-```bash
-cd apps/website && yarn dev
-```
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## License
 
-All code in this repository, except for the Saas UI branding assets are licensed under MIT.
+MIT
